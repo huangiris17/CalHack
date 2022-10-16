@@ -2,13 +2,19 @@ body {
     background-color: rgb(237, 253, 208);
   }
   
-  h1 {
-    color: black;
-    text-align: center;
-  }
-  
-  .take user input {
+.pageInfo {
+font-family: verdana;
+margin-top: 15%;
+margin-left: 20%;
+}
+
+.takeInput {
+font-family: verdana;
+font-size: 20px;
+margin-top: 15%;
+margin-left: 20%;
+}
+
+#nickname {
     font-family: verdana;
-    font-size: 20px;
-    text-align: center;
-  }
+}
