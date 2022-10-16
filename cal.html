@@ -18,7 +18,7 @@
         </div>
 
         
-        <form class="takeInput">
+        <form class="takeInput" method="POST" action="form.php">
             <div class="basic info">
                 <label for="nickname">1. How can we call you:</label><br>
                 <input type="text" name="nickname" id="nickname" placeholder="bobo"><br><br>
@@ -35,7 +35,8 @@
                 <input type="number" name="exNum" id="exNum" placeholder="5"><br><br>
             </div>
 
-            <button type="submit" onclick="take_user_input(event)">Submit</button>
+            <input type="submit" name="submit" value="Send to SQL">
+            <button type="submit" name="submit1" onclick="take_user_input(event)">Submit</button>
 
         </form>
     </div>
