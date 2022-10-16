@@ -11,25 +11,35 @@
 <body>
 
     <div class="pageInfo">
-        <h1>Find the Hiker!</h1>
-        <h4>5mins, find someone to hike with today!<h4><br>
+
+        <div class="main">
+            <h1>Find the Hiker!</h1>
+            <h4>5mins, find someone to hike with today!<h4><br>
+        </div>
+
         
         <form class="takeInput">
             <div class="basic info">
-                <label for="nickname">How can we call you:</label><br>
-                <input type="text" id="nickname" placeholder="bobo"><br><br>
+                <label for="nickname">1. How can we call you:</label><br>
+                <input type="text" name="nickname" id="nickname" placeholder="bobo"><br><br>
             </div>
 
             <div class="personality">
-                <label for="interest">What kind of milk do you drink coffee with:</label><br>
+                <label for="interest">2. What kind of milk do you drink coffee with:</label><br>
                     <input type="radio" name="milk" value="milk">Milk<br>
-                    <input type="radio" name="milk" value="almond milk">Almond Milk<br>
+                    <input type="radio" name="milk" value="almond milk">Almond Milk<br><br>
+            </div>
+
+            <div class="basic info">
+                <label for="nickname">3. How many dates did you have:</label><br>
+                <input type="number" name="exNum" id="exNum" placeholder="5"><br><br>
             </div>
 
             <button type="submit" onclick="take_user_input(event)">Submit</button>
 
         </form>
     </div>
+
 
 </body>
 </html>

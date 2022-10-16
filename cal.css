@@ -1,18 +1,19 @@
 body {
     background-color: rgb(237, 253, 208);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/206/236/original/mountain-png.png");
   }
+
   
 .pageInfo {
 font-family: verdana;
-margin-top: 15%;
+margin-top: 10%;
 margin-left: 20%;
 }
+
 
 .takeInput {
 font-family: verdana;
 font-size: 20px;
-margin-top: 15%;
-margin-left: 20%;
 }
 
 #nickname {
