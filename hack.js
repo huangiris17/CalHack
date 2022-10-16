@@ -6,13 +6,14 @@ function take_user_input(e) {
     var nickName = document.getElementById("nickname").value;
     var exNum = document.getElementById("exNum").value;
     var milkType = document.querySelector("input[type='radio'][name=milk]:checked").value;
+    sessionStorage.setItem("numDate", exNum);
 
 
     console.log('Hi use. ')
     console.log(nickName + ' wants to connect with you, she drinks coffee with ' + milkType);
 
-    alert(nickName + ", thanks for submitting the form! go Hike will prepare hikemate who also drinks " + milkType);
-    window.location.href = "newpage.html";
+    alert(nickName + ", thanks for submitting the form! go Hike will prepare hikemate who also drinks " + milkType + " " + exNum + " per day");
+    window.location.href = "newpage.php";
 
     const settings = {
         "async": true,
