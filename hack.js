@@ -13,7 +13,7 @@ function take_user_input(e) {
     console.log('Hi use. ')
     console.log(nickName + ' wants to connect with you, she drinks coffee with ' + milkType);
 
-    alert(nickName + ", thanks for submitting the form! go Hike will prepare hikemate who also drinks " + milkType + " " + exNum + " per day");
+    alert(nickName + ", thanks for submitting the form! We will prepare hikemate who also drinks " + milkType + " " + exNum + " per day");
     window.location.href = "newpage.html";
 
     const settings = {
