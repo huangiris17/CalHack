@@ -6,8 +6,8 @@ function take_user_input(e) {
     var nickName = document.getElementById("nickname").value;
     var exNum = document.getElementById("exNum").value;
     var milkType = document.querySelector("input[type='radio'][name=milk]:checked").value;
-    sessionStorage.setItem("exNum", exNum);
-    document.getElementById("exNum").innerHTML = sessionStorage.getItem("exNum");
+    //sessionStorage.setItem("exNum", exNum);
+    //document.getElementById("exNum").innerHTML = sessionStorage.getItem("exNum");
 
 
     console.log('Hi use. ')
@@ -30,4 +30,6 @@ function take_user_input(e) {
     $.ajax(settings).done(function (response) {
         console.log(response);
     });
+
+
 }
